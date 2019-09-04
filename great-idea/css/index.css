@@ -17,7 +17,7 @@ figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
-	padding: 0;
+	padding: 0 20px;
 	border: 0;
 	font-size: 100%;
 	font: inherit;
@@ -28,9 +28,114 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
+
 body {
 	line-height: 1;
 }
+
+header {
+	display: flex;
+	justify-content: space-evenly;
+	margin: 0 0 30px 0;
+}
+
+h4{
+	font-size: 25px;
+}
+
+a{
+	padding: 0;
+}
+
+nav {
+	display: flex;
+	justify-content: space-between;
+	flex-grow: 1;
+	align-items: center;
+}
+
+.cta{
+	display: flex;
+	justify-content: space-evenly;
+	padding: 0 0 40px 0;
+}
+
+.cta-text{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	
+}
+
+.cta-text h1{
+	font-size: 70px;
+	text-align: center;
+}
+
+.btn-container button{
+	background-color: white;
+	border: .5px solid black;
+	width: 170px; 
+	padding: 5px 10px;
+}
+
+.top-content{
+	display: flex;
+	border-top: 1px solid black;
+	padding: 30px 0; 
+	justify-content: 
+}
+
+.bottom-content{
+	display: flex;
+	border-bottom: 1px solid black;
+	padding: 30px 0;
+}
+
+.contact{
+	margin: 30px 0;
+	display: flex;
+	flex-direction: column;
+	padding: 0 0 0 0;
+}
+
+
+.line-height-double{
+	line-height: 200%;
+	align-items: flex-start;
+	margin: 5px 0 0 0;
+}
+
+footer{
+	display: flex;
+	justify-content: center;
+}
+
+.services-header-img{
+	width:100%;
+	padding: 40px;
+}
+
+.about-services{
+	display: flex;
+	border-top: 1px solid black;
+	padding: 30px 40px 0;
+	margin: 30px 0 30px 0;
+}
+
+.as-text{
+	padding: 0 0 0 0;
+}
+.as-text p{
+	padding: 0 0 0 0;
+}
+
+h5 {
+	padding: 0 0 0 0;
+
+}
+
 ol, ul {
 	list-style: none;
 }
